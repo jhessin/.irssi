@@ -354,6 +354,7 @@ statusbar = {
         barend = { priority = "100"; alignment = "right"; };
         vim_mode = { };
         vim_windows = { };
+        usercount = { };
       };
     };
 
@@ -381,8 +382,7 @@ statusbar = {
       visible = "always";
 
       items = {
-        prompt = { priority = "-1"; };
-        prompt_empty = { priority = "-1"; };
+        uberprompt = { priority = "-1"; };
         input = { priority = "10"; };
       };
     };
@@ -408,6 +408,7 @@ settings = {
     real_name = "Jim Hessin";
     user_name = "jhessin";
     nick = "jhessin";
+    timestamp_format = "%d.%H:%M:%S";
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = {
