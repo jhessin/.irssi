@@ -382,7 +382,8 @@ statusbar = {
       visible = "always";
 
       items = {
-        uberprompt = { priority = "-1"; };
+        prompt = { priority = "-1"; };
+        prompt_empty = { priority = "-1"; };
         input = { priority = "10"; };
       };
     };
